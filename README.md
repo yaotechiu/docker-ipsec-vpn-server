@@ -120,6 +120,18 @@ Or display current established VPN connections:
 docker exec -it ipsec-vpn-server ipsec whack --trafficstatus
 ```
 
+Display ipsec auth log with timestamp:
+
+```
+docker exec -it ipsec-vpn-server vim /var/log/auth.log
+```
+
+Display system log:
+
+```
+docker exec -it ipsec-vpn-server vim /var/log/syslog
+```
+
 ## Next steps
 
 Get your computer or device to use the VPN. Please refer to:
